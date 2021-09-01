@@ -187,8 +187,8 @@ footer {
 }
 .hobby img{
     padding: 20px;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
 }
 .hobby p{
@@ -226,4 +226,16 @@ header ul{
     text-align: center;
     float: none;
   }
+.hobby img{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+}
+
+@media screen and (min-width: 477px){
+    .container {
+        width: 90%;
+    }
 }
